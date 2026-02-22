@@ -1,11 +1,10 @@
 # Butterfly Image Classification
 
-Production-style PyTorch repository for butterfly/moth species classification using:
+repository for butterfly/moth species classification using:
 
 - A custom 4-convolution CNN.
 - Transfer learning with ResNet18 (ImageNet pretrained).
 
-This project is designed for reproducibility, clean modularity, and practical MLOps-lite workflow (configs, checkpoints, metrics, CI, Docker).
 
 ## Dataset
 
