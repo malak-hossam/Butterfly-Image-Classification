@@ -5,7 +5,6 @@ repository for butterfly/moth species classification using:
 - A custom 4-convolution CNN.
 - Transfer learning with ResNet18 (ImageNet pretrained).
 
-
 ## Dataset
 
 Dataset source: [Kaggle - Butterfly Images 40 Species](https://www.kaggle.com/datasets/gpiosenka/butterfly-images40-species)
