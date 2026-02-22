@@ -109,7 +109,7 @@ python -m src.infer.predict --config src/config/resnet18.yaml --checkpoint outpu
 └─ .github/workflows/ci.yml
 ```
 
-## Results (Template)
+## Results
 
 | Pipeline | Val Accuracy | Test Accuracy |  |
 |---|---:|---:|---|
