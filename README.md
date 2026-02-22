@@ -111,10 +111,10 @@ python -m src.infer.predict --config src/config/resnet18.yaml --checkpoint outpu
 
 ## Results (Template)
 
-| Pipeline | Val Accuracy | Test Accuracy | Notes |
+| Pipeline | Val Accuracy | Test Accuracy |  |
 |---|---:|---:|---|
-| Custom CNN | - | - | Notebook reference test accuracy: ~0.726 |
-| ResNet18 Transfer | - | - | Notebook reference test accuracy: ~0.930 |
+| Custom CNN | 0.7480 | 0.7260 |  |
+| ResNet18 Transfer | 0.9220 | 0.9300 | |
 
 ## Outputs
 
