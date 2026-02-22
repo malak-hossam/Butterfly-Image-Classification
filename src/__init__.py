@@ -1,0 +1,2 @@
+"""Butterfly image classification package."""
+

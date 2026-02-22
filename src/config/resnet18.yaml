@@ -1,0 +1,16 @@
+base_config: default.yaml
+
+project:
+  pipeline_name: resnet18
+
+model:
+  name: resnet18
+  pretrained: true
+  dropout: 0.5
+
+training:
+  epochs: 10
+  learning_rate: 0.001
+  weight_decay: 0.0
+  use_class_weights: false
+  freeze_backbone: false

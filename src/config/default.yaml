@@ -1,0 +1,37 @@
+project:
+  name: butterfly-image-classification
+  pipeline_name: baseline
+
+seed: 42
+device: auto
+
+data:
+  root_dir: data/raw/butterfly-images40-species
+  train_dir: train
+  valid_dir: valid
+  test_dir: test
+
+dataloader:
+  batch_size: 32
+  num_workers: 2
+  pin_memory: true
+  save_sample_batch: true
+
+model:
+  name: cnn
+  pretrained: false
+  dropout: 0.5
+
+training:
+  epochs: 10
+  learning_rate: 0.001
+  weight_decay: 0.0
+  use_class_weights: false
+  freeze_backbone: false
+
+evaluation:
+  split: test
+  top_k: 5
+
+outputs:
+  root_dir: outputs

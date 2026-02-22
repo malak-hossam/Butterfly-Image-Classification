@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Project artifacts
+outputs/
+*.pt
+*.pth
+*.log
+
+# Data (keep dataset local, not in Git)
+data/raw/
+!data/raw/.gitkeep
+
